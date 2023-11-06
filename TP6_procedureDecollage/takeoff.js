@@ -1,5 +1,5 @@
 var colors = require("colors");
-var unsafeRequire = require("./utils/unsafeRequire");
+var unsafeRequire = require("./unsafeRequire");
 
 // Pour rendre node un peu plus souple pour l'exercice (ne jamais utiliser ailleurs)
 var unsafeRequire = function(m, stub){
