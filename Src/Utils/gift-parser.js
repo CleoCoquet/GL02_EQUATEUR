@@ -96,6 +96,13 @@ function parseSpecialCharacters(text) {
     const result = text.replace(/(::.*?::|\{.*?\}|\/\/[^\n\r]*|\})/g, '\n$1\n');
     return result.split('\n').filter(line => line.trim() !== '');
 
+    // regex to also split on ~, #, %, =a
+
+//     const result = paragraph.replace(/(:::.*?::|\{.*?\}|\/\/[^\n\r]*|\}|~|#|%|=)/g, '\n$1\n');
+//
+// // Split the result into an array of lines.
+//     const resultLines = result.split('\n').filter(line => line.trim() !== '');
+
 }
 
 module.exports = {parseGift};
