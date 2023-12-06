@@ -20,7 +20,7 @@ function listVCardFiles() {
     console.log(`${index + 1}. ${file}`);
   });
 
-  // Demander à l'utilisateur de choisir un fichier à consulter
+  // Demander à l'utilisateur de choisir un fichier pour le consulter
   if (files.length > 0) {
     const fileIndex = readlineSync.questionInt('Entrez le numéro du fichier que vous souhaitez consulter : ', {
       min: 1,
