@@ -40,6 +40,6 @@ function listVCardFiles() {
   }
 }
 
-// Appeler la fonction pour lister et consulter les fichiers .vcf
+// Appelle la fonction pour lister et consulter les fichiers .vcf
 listVCardFiles();
 
