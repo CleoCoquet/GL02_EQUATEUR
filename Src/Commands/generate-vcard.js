@@ -1,38 +1,38 @@
-//5
-function generateVCard(teacherInfo) {
-    // Créer le contenu vCard
-    const vCardData = `
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+function generateVCard() {
+  // Demander à l'utilisateur d'entrer ses informations
+  rl.question("Entrez votre nom complet: ", (fullName) => {
+    rl.question("Entrez le nom de votre organisation (facultatif): ", (organization) => {
+      rl.question("Entrez votre numéro de téléphone (facultatif): ", (phoneNumber) => {
+        rl.question("Entrez votre adresse e-mail (facultatif): ", (email) => {
+          // Créer le contenu vCard
+          const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:${teacherInfo.fullName}
-ORG:${teacherInfo.organization || ''}
-TEL:${teacherInfo.phoneNumber || ''}
-EMAIL:${teacherInfo.email || ''}
+FN:${fullName}
+ORG:${organization || ''}
+TEL:${phoneNumber || ''}
+EMAIL:${email || ''}
 END:VCARD
 `;
 
-    // Convertir le contenu en Blob
-    const blob = new Blob([vCardData], { type: 'text/vcard;charset=utf-8' });
+          // Afficher la vCard générée
+          console.log('vCard générée :', vCardData);
 
-    // Créer un lien pour télécharger le fichier vCard
-    const downloadLink = document.createElement('a');
-    downloadLink.href = window.URL.createObjectURL(blob);
-    downloadLink.setAttribute('download', 'teacher_vcard.vcf');
-    document.body.appendChild(downloadLink);
-
-    // Simuler un clic sur le lien pour déclencher le téléchargement
-    downloadLink.click();
-
-    // Nettoyer le lien après le téléchargement
-    document.body.removeChild(downloadLink);
+          // Fermer l'interface readline
+          rl.close();
+        });
+      });
+    });
+  });
 }
 
-// Exemple d'utilisation
-const teacherInfo = {
-    fullName: 'John Doe',
-    organization: 'School XYZ',
-    phoneNumber: '123456789',
-    email: 'john.doe@example.com',
-};
+// Appeler la fonction pour générer la vCard
+generateVCard();
 
-generateVCard(teacherInfo);
