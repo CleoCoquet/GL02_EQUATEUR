@@ -56,6 +56,13 @@ function selectQuestions() {
 function prepareExam() {
     console.log('Prepare Exam');
     // Implement prepare exam logic
+   console.log("please create an exam file")
+    
+        const createExam = require('./subcommand1');
+
+    // Use the function
+        createExam();
+
 
 }
 
