@@ -19,6 +19,7 @@ function parseGift(giftString) {
         };
         let temp = "";
         let flag = false;
+        let shortansflag = false;
 
         lines.forEach(line => {
             line = line.trim();
@@ -30,8 +31,9 @@ function parseGift(giftString) {
                 currentQuestion.comments.push(line.slice(2).trim());
             } else if (line.startsWith("{") || flag) {
                 flag = true;
-                if (line.endsWith("}") || temp.endsWith("}")) {
 
+                if (line.endsWith("}") || temp.endsWith("}")) {
+                    shortansflag = true;
                     flag = false;
                     if (temp !== "") {
                         temp += line;
@@ -51,15 +53,33 @@ function parseGift(giftString) {
                     // Parse feedback
                     parseFeedback(line, currentQuestion);
                 } else {
+                    if (shortansflag) {
+                        currentQuestion.type = "Missing Word";
+                    }
                     currentQuestion.text += line;
                 }
+
 
             }
         });
         if (currentQuestion.name) {
+            //parse through all the choices of the current question
+            let temp = true;
+            currentQuestion.choices.forEach(choice => {
+                if (!choice.startsWith("=") && currentQuestion.type !== "Missing Word") {
+                    temp = false;
+
+                }
+
+            });
+            if (temp) {
+                currentQuestion.type = "Short Answer";
+            }
+
             questions.push(currentQuestion);
         }
-
+    if(currentQuestion.text && currentQuestion.choices.length === 0){
+        currentQuestion.type = "Description";}
 
     });
     return questions;
@@ -70,7 +90,6 @@ function QuestionType(line, currentQuestion) {
     const cleanLine = line.replace(/[{}]/g, '');
     if (cleanLine) {
 
-        console.log("cleanLine: " + cleanLine);
         //the answers are split by the special characters
         let answers = cleanLine.split(/([~=#])/).filter(Boolean);  // Filter to remove empty strings
         const joinedAnswers = [];
@@ -92,11 +111,11 @@ function QuestionType(line, currentQuestion) {
                     const match = option.split("#");
                     if (match) {
                         if (match[0].includes("~") && !match[0].includes("->")) {
-                            currentQuestion.type = "MC";
+                            currentQuestion.type = "Multiple Choice";
                             currentQuestion.choices.push(match[0]);
                             currentQuestion.feedback.push(match[1]);
                         } else if (match[0].includes("=") && !match[0].includes("->")) {
-                            currentQuestion.type = "MC";
+                            currentQuestion.type = "Multiple Choice";
                             currentQuestion.choices.unshift(match[0]);
                             currentQuestion.feedback.unshift(match[1]);
                         } else {
@@ -106,10 +125,10 @@ function QuestionType(line, currentQuestion) {
                         }
                     } else {
                         if (option.includes("~") && !option.includes("->")) {
-                            currentQuestion.type = "MC";
+                            currentQuestion.type = "Multiple Choice";
                             currentQuestion.choices.push(option);
                         } else if (option.includes("=") && !option.includes("->")) {
-                            currentQuestion.type = "MC";
+                            currentQuestion.type = "Multiple Choice";
                             currentQuestion.choices.unshift(option);
                         } else {
                             currentQuestion.type = "Matching";
@@ -120,7 +139,6 @@ function QuestionType(line, currentQuestion) {
                 }
             );
         } else {
-            console.log("answers: " + answers[0]);
             const match = answers[0].split("#");
 
             //Truth or false, short answer or essay, numerical
@@ -160,39 +178,6 @@ function QuestionType(line, currentQuestion) {
         currentQuestion.feedback.push("Incomplete Question");
     }
 }
-
-
-//split into mc and matching
-
-
-// function parseMultipleChoices(line, currentQuestion) {
-//
-//     //gets the  things in the curly braces
-//     //rexex wont work porque esta usando numero y las respuestas no se numeran, necesito separarles por correcto e incorrectos
-//     //idea: poner la respuesta correcta siempre en el puesto 1
-//     //idea: conectar con parseSingleChoiceAnswer?
-//     const match = line.match(/^{(\d+):(.+)}$/);
-//     if (match && currentQuestion) {
-//         const choiceNumber = parseInt(match[1]);
-//         const choiceText = match[2].trim();
-//         currentQuestion.choices.push({number: choiceNumber, text: choiceText, correct: false});
-//     }
-// }
-
-//split this function into true/false and short answer
-
-
-// function parseSingleChoiceAnswer(line, currentQuestion) {
-//     if (currentQuestion && currentQuestion.type === "MC") {
-//         const isCorrect = line.startsWith("=");
-//         const choiceText = isCorrect ? line.slice(1).trim() : line.trim();
-//         const choice = {text: choiceText, correct: isCorrect};
-//         currentQuestion.choices.push(choice);
-//     } else if (currentQuestion && currentQuestion.type === "TF") {
-//         currentQuestion.choices.push({text: line.trim(), correct: line.startsWith("~")});
-//     }
-// }
-
 
 function parseQuestionName(line, currentQuestion) {
     currentQuestion.name = line.slice(2).trim();
