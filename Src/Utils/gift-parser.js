@@ -43,7 +43,6 @@ function parseGift(giftString) {
                         QuestionType(line, currentQuestion);
                         temp = "";
                     }
-                    //checa que no sea missing word
                 } else {
                     // makes sure that answers that are split into multiple lines are parsed correctly
                     temp += line;
@@ -102,12 +101,10 @@ function QuestionType(line, currentQuestion) {
         }
         answers = joinedAnswers;
         // Multiple choice, matching or , short
-        //revisar que # de feedback no este no moleste con el de numerical
         if (answers.length >= 2 && (answers[0].includes("~") || answers[0].includes("=") || answers[0].includes("->"))) {
 
             answers.forEach(option => {
-                    //agregar short answer
-                    answers[0] = answers[0].trim();
+                 answers[0] = answers[0].trim();
                     const match = option.split("#");
                     if (match) {
                         if (match[0].includes("~") && !match[0].includes("->")) {
