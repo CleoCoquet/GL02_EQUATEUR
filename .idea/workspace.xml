@@ -4,9 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1349308-4d39-495a-896a-650db45a2487" name="Changes" comment="Console written not connected to Backend">
+    <list default="true" id="e1349308-4d39-495a-896a-650db45a2487" name="Changes" comment="Needed Modules">
+      <change afterPath="$PROJECT_DIR$/Src/Utils/parsed-questions.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Src/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/EM-U4-p32_33-Review.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/EM-U4-p32_33-Review.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/EM-U42-Ultimate.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/EM-U42-Ultimate.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/EM-U5-p34-Gra-Expressions_of_quantity.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/EM-U5-p34-Gra-Expressions_of_quantity.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/EM-U5-p34-Voc.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/EM-U5-p34-Voc.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/EM-U5-p35-Gra-Subject_verb_agreement.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/EM-U5-p35-Gra-Subject_verb_agreement.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/EM-U5-p36_37-Reading.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/EM-U5-p36_37-Reading.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/EM-U5-p38-Passive.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/EM-U5-p38-Passive.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/EM-U6-p46_47-4.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/EM-U6-p46_47-4.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U1-p10-Gra-Present_tenses_habits.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U1-p10-Gra-Present_tenses_habits.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U1-p7-Adverbs.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U1-p7-Adverbs.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U1-p8_9-Reading-Coachella.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U1-p8_9-Reading-Coachella.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U10-p106-Reading.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U10-p106-Reading.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U11-p114-Mixed_conditionals.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U11-p114-Mixed_conditionals.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U2-p22-Gra-Ing_or_inf.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U2-p22-Gra-Ing_or_inf.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U3-p30-Reading.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U3-p30-Reading.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U3-p31-Gra-ed_adjectives_prepositions.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U3-p31-Gra-ed_adjectives_prepositions.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U3-p32-GR-Present_perfect_vs_past_simple.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U3-p32-GR-Present_perfect_vs_past_simple.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U3-p32-Gra-Present_perfect_simple_vs_continuous.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U3-p32-Gra-Present_perfect_simple_vs_continuous.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U3-p33-Gra-As_like.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U3-p33-Gra-As_like.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U3-p33-UoE-Hygge.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U3-p33-UoE-Hygge.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U4-p39-Reading-xmen.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U4-p39-Reading-xmen.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U4-p42_43-Listening.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U4-p42_43-Listening.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U4-p47-Review.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U4-p47-Review.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U5-p49-GR1-Expressions_of_quantity.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U5-p49-GR1-Expressions_of_quantity.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U5-p49-Subject_verb_agreement.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U5-p49-Subject_verb_agreement.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U5-p50-Use_of_English.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U5-p50-Use_of_English.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U5-p52-Reading-The_death_of_cooking.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U5-p52-Reading-The_death_of_cooking.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U5-p54-6-Passive.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U5-p54-6-Passive.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U5-p54-GR4-Passive-reporting.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U5-p54-GR4-Passive-reporting.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U5-p57-Review.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U5-p57-Review.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U6-p59-Vocabulary.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U6-p59-Vocabulary.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U6-p60-Listening.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U6-p60-Listening.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U6-p61-5-Future-forms.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U6-p61-5-Future-forms.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U6-p61-GR-Future_forms.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U6-p61-GR-Future_forms.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U6-p62_63-Reading.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U6-p62_63-Reading.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U6-p64-Future-perfect-&amp;-continuous.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U6-p64-Future-perfect-&amp;-continuous.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U6-p65-Voc-Expressions_with_get.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U6-p65-Voc-Expressions_with_get.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U6-p67-Review.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U6-p67-Review.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U6-p68_69-ProgressTest2.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U6-p68_69-ProgressTest2.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U7-p76-Relative_clauses.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U7-p76-Relative_clauses.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U7-p76_77-So,such,too,enough.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U7-p76_77-So,such,too,enough.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U7-p77-6.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U7-p77-6.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U7-p77-It is,there is.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U7-p77-It is,there is.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U7-p79-Review-3.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U7-p79-Review-3.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U8-p84-Voc-Linking_words.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U8-p84-Voc-Linking_words.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U9-p94-Listening.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U9-p94-Listening.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/U9-p95-Third_cond-4.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/Data/U9-p95-Third_cond-4.gift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/gift-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Utils/gift-parser.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +128,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\Src\Utils\Data" />
+      <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro" />
+      <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\Src\Utils" />
+      <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\Src" />
       <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\src" />
     </key>
   </component>
@@ -106,7 +160,11 @@
       <workItem from="1701353550163" duration="3406000" />
       <workItem from="1701549940820" duration="15672000" />
       <workItem from="1701628521773" duration="2924000" />
-      <workItem from="1701706924580" duration="928000" />
+      <workItem from="1701706924580" duration="2920000" />
+      <workItem from="1701779017534" duration="5616000" />
+      <workItem from="1701866123920" duration="277000" />
+      <workItem from="1701866468109" duration="14765000" />
+      <workItem from="1701943984710" duration="3155000" />
     </task>
     <task id="LOCAL-00001" summary="Blue Ready!">
       <option name="closed" value="true" />
@@ -140,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701691160806</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Needed Modules">
+      <option name="closed" value="true" />
+      <created>1701708197522</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701708197522</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +241,7 @@
     <MESSAGE value="Project Outline Ready" />
     <MESSAGE value="Parser nearly ready" />
     <MESSAGE value="Console written not connected to Backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Console written not connected to Backend" />
+    <MESSAGE value="Needed Modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Needed Modules" />
   </component>
 </project>
