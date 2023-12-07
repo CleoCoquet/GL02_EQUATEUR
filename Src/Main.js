@@ -56,6 +56,7 @@ function selectQuestions() {
 function prepareExam() {
     console.log('Prepare Exam');
     // Implement prepare exam logic
+
 }
 
 function profileGiftExam() {
