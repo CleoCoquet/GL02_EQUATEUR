@@ -1,35 +1,31 @@
-// main.js
-
+const program = require('caporal');
 const prompt = require('prompt-sync')();
-// const readline = require('readline').createInterface({
-//     input: process.stdin,
-//     output: process.stdout
-// });
-function showOptions() {
-    console.log('Choose your option:');
-    console.log('1. Search for Question');
-    console.log('2. Select Questions');
-    console.log('3. Prepare Exam');
-    console.log('4. Profile GIFT Exam');
-    console.log('5. Compare Exam Profile');
-    console.log('6. Generate VCard');
-    console.log('7. Simulate Exam');
 
+program
+    .version('1.0.0')
+    .description('Exam Tool CLI');
 
+program
+    .command('show-options')
+    .description('Show available options')
+    .action(() => {
+        console.log('Choose your option:');
+        console.log('1. Search for Question');
+        console.log('2. Select Questions');
+        console.log('3. Prepare Exam');
+        console.log('4. Profile GIFT Exam');
+        console.log('5. Compare Exam Profile');
+        console.log('6. Generate VCard');
+        console.log('7. Simulate Exam');
 
-    const option = prompt('Enter your option: ');
-
-    handleOption(option);
-}
+        const option = prompt('Enter your option: ');
+        handleOption(option);
+    });
 
 function handleOption(option) {
     switch (option) {
         case '1':
             searchQuestion();
-            // dos maneras de buscar:
-            // parsear to do el archivo y buscar en el array
-            // parsear linea por linea y buscar en cada linea
-
             break;
         case '2':
             selectQuestions();
@@ -90,9 +86,4 @@ function simulateExam() {
     // Implement simulate exam logic
 }
 
-showOptions();
-
-
-//deberia tener todos los documentos en una carpeta ya parseados?
-//donde guardo los examens? en una carpeta aparte?
-//que carajos es un vcard?
+program.parse(process.argv);
