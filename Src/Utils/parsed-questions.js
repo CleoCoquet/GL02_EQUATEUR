@@ -28,7 +28,6 @@ fs.readdir(folderPath, (err, files) => {
                 console.error(`Error reading document ${documentPath}:`, err);
                 return;
             }
-            console.log("Document Path: "+documentPath);
             // Parse the document using the parser function
             const parsedResult = parseGift(data);
 
@@ -37,7 +36,6 @@ fs.readdir(folderPath, (err, files) => {
 
 
             // Output the result
-            console.log(parsedResult);
         });
         });
 });
