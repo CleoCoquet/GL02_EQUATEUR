@@ -69,6 +69,8 @@ function prepareExam() {
 function profileGiftExam() {
     console.log('Profile GIFT Exam');
     // Implement profile GIFT exam logic
+    console.log("please choose the exam")
+    
 }
 
 function compareExamProfile() {

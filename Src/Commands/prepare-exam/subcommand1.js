@@ -105,7 +105,7 @@ if (existeDeja === false) {
     }
 
     myGift = Gift();
-    if (myGift === '') console.log('\nLa question n\'a pas été trouvée.'.red)
+    if (myGift === '') console.log('\n Aucune question trouvée'.red)
     //on ajoute la question au fichier exam
     fs.appendFile(`./examen/${name}.gift`, myGift, "utf8", function (err) {
         if (err) {
