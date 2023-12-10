@@ -76,6 +76,7 @@ function profileGiftExam() {
 function compareExamProfile() {
     console.log('Compare Exam Profile');
     // Implement compare exam profile logic
+      
 }
 
 function generateVCard() {
