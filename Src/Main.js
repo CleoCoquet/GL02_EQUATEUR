@@ -1,5 +1,6 @@
 const program = require('caporal');
-const {matchingQuestions} = require("./Commands/search-question");
+const {matchingQuestions} = require("./search-question");
+const {parsedQuestions} = require("./parsed-questions");
 const prompt = require('prompt-sync')();
 
 program
@@ -10,6 +11,7 @@ program
     .command('show-options')
     .description('Show available options')
     .action(() => {
+        parsedQuestions();
         console.log('Choose your option:');
         console.log('1. Search for Question');
         console.log('2. Select Questions');
@@ -56,7 +58,7 @@ function runsearchQuestion() {
     console.log('Search for Question');
     let question = prompt('Enter your question: ')
     //call the file that contains the function
-    const {matchingQuestions} = require("./Commands/search-question");
+    const {matchingQuestions} = require("./search-question");
     //call the function
     matchingQuestions(question)
 
@@ -68,7 +70,7 @@ function runsearchQuestion() {
 function runprepareExam() {
     console.log('Prepare Exam');
     //call the file that contains the function prepareExam
-    const {prepareExam} = require("./Commands/prepare_exam");
+    const {prepareExam} = require("./prepare_exam");
     //call the function
     //dorcas fix this
 
@@ -77,7 +79,7 @@ function runprepareExam() {
 function runprofileGiftExam() {
     console.log('Profile GIFT Exam');
 //call the file that contains the function profileGiftExam
-    const {profileGiftExam} = require("./Commands/profile-gift-exam");
+    const {profileGiftExam} = require("./profile-gift-exam");
 //problem here
 //eines
 }
@@ -85,7 +87,7 @@ function runprofileGiftExam() {
 function runcompareExamProfile() {
     console.log('Compare Exam Profile');
     //call the file that contains the function compareExamProfile
-    const {compareExamProfile} = require("./Commands/compare-exam-profile");
+    const {compareExamProfile} = require("./compare-exam-profile");
     //call the function
     //create the object to get results
     //dorcas fix this
@@ -94,7 +96,7 @@ function runcompareExamProfile() {
     function rungenerateVCard() {
         console.log('Generate VCard');
         //call the file that contains the function generateVCard
-        const {generateVCard} = require("./Commands/generate-vcard");
+        const {generateVCard} = require("./generate-vcard");
         //call the function
         generateVCard()
     }
@@ -102,7 +104,7 @@ function runcompareExamProfile() {
     function runsimulateExam() {
         console.log('Simulate Exam');
         //call the file that contains the function simulateExam
-        const {simulateExam} = require("./Commands/simulate-exam");
+        const {simulateExam} = require("./simulate-exam");
         //call the function
         //this is empty also eines
 

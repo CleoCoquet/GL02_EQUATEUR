@@ -6,11 +6,66 @@
   <component name="ChangeListManager">
     <list default="true" id="e1349308-4d39-495a-896a-650db45a2487" name="Changes" comment="Corrections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Commands/generate-vcard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Commands/generate-vcard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Commands/prepare_exam.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Commands/prepare_exam.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Commands/search-question.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Commands/search-question.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Commands/compare-exam-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/compare-exam-profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Commands/data_vcard/ufgue.vcf" beforeDir="false" afterPath="$PROJECT_DIR$/Src/data_vcard/ufgue.vcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Commands/generate-vcard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/generate-vcard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Commands/prepare_exam.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/prepare_exam.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Commands/profile-gift-exam.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/profile-gift-exam.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Commands/read-vcard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/read-vcard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Commands/search-question.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/search-question.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Commands/simulate-exam.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/simulate-exam.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Utils/exam-simulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/EM-U4-p32_33-Review.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/EM-U4-p32_33-Review.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/EM-U42-Ultimate.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/EM-U42-Ultimate.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/EM-U5-p34-Gra-Expressions_of_quantity.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/EM-U5-p34-Gra-Expressions_of_quantity.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/EM-U5-p34-Voc.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/EM-U5-p34-Voc.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/EM-U5-p35-Gra-Subject_verb_agreement.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/EM-U5-p35-Gra-Subject_verb_agreement.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/EM-U5-p36_37-Reading.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/EM-U5-p36_37-Reading.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/EM-U5-p38-Passive.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/EM-U5-p38-Passive.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/EM-U6-p46_47-4.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/EM-U6-p46_47-4.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U1-p10-Gra-Present_tenses_habits.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U1-p10-Gra-Present_tenses_habits.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U1-p7-Adverbs.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U1-p7-Adverbs.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U1-p8_9-Reading-Coachella.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U1-p8_9-Reading-Coachella.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U10-p106-Reading.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U10-p106-Reading.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U11-p114-Mixed_conditionals.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U11-p114-Mixed_conditionals.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U2-p22-Gra-Ing_or_inf.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U2-p22-Gra-Ing_or_inf.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U3-p30-Reading.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U3-p30-Reading.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U3-p31-Gra-ed_adjectives_prepositions.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U3-p31-Gra-ed_adjectives_prepositions.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U3-p32-GR-Present_perfect_vs_past_simple.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U3-p32-GR-Present_perfect_vs_past_simple.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U3-p32-Gra-Present_perfect_simple_vs_continuous.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U3-p32-Gra-Present_perfect_simple_vs_continuous.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U3-p33-Gra-As_like.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U3-p33-Gra-As_like.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U3-p33-UoE-Hygge.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U3-p33-UoE-Hygge.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U4-p39-Reading-xmen.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U4-p39-Reading-xmen.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U4-p42_43-Listening.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U4-p42_43-Listening.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U4-p47-Review.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U4-p47-Review.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U5-p49-GR1-Expressions_of_quantity.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U5-p49-GR1-Expressions_of_quantity.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U5-p49-Subject_verb_agreement.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U5-p49-Subject_verb_agreement.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U5-p50-Use_of_English.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U5-p50-Use_of_English.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U5-p52-Reading-The_death_of_cooking.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U5-p52-Reading-The_death_of_cooking.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U5-p54-6-Passive.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U5-p54-6-Passive.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U5-p54-GR4-Passive-reporting.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U5-p54-GR4-Passive-reporting.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U5-p57-Review.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U5-p57-Review.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U6-p59-Vocabulary.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U6-p59-Vocabulary.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U6-p60-Listening.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U6-p60-Listening.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U6-p61-5-Future-forms.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U6-p61-5-Future-forms.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U6-p61-GR-Future_forms.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U6-p61-GR-Future_forms.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U6-p62_63-Reading.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U6-p62_63-Reading.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U6-p64-Future-perfect-&amp;-continuous.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U6-p64-Future-perfect-&amp;-continuous.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U6-p65-Voc-Expressions_with_get.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U6-p65-Voc-Expressions_with_get.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U6-p67-Review.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U6-p67-Review.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U6-p68_69-ProgressTest2.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U6-p68_69-ProgressTest2.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U7-p76-Relative_clauses.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U7-p76-Relative_clauses.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U7-p76_77-So,such,too,enough.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U7-p76_77-So,such,too,enough.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U7-p77-6.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U7-p77-6.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U7-p77-It is,there is.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U7-p77-It is,there is.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U7-p79-Review-3.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U7-p79-Review-3.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U8-p84-Voc-Linking_words.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U8-p84-Voc-Linking_words.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U9-p94-Listening.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U9-p94-Listening.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/Data/U9-p95-Third_cond-4.gift" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Data/U9-p95-Third_cond-4.gift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/chart-generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/chart-generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/data-quality-check.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/data-quality-check.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/gift-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/gift-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/parsed-questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/parsed-questions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +125,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Node.js.Main.js.executor": "Run",
     "Node.js.parsed-questions.js.executor": "Run",
+    "Node.js.search-question.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -89,22 +145,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\Src" />
       <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\Src\Commands" />
       <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\Src\Utils\Data" />
       <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro" />
       <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\Src\Utils" />
-      <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\Src" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Src/Main.js" working-dir="$PROJECT_DIR$/Src">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.Main.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -128,7 +174,7 @@
       <workItem from="1701943984710" duration="4135000" />
       <workItem from="1701972467241" duration="103000" />
       <workItem from="1701972634678" duration="6919000" />
-      <workItem from="1702308847662" duration="2482000" />
+      <workItem from="1702308847662" duration="3693000" />
     </task>
     <task id="LOCAL-00001" summary="Blue Ready!">
       <option name="closed" value="true" />
@@ -250,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702310084993</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Corrections">
+      <option name="closed" value="true" />
+      <created>1702311900386</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702311900386</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
