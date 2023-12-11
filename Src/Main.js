@@ -26,25 +26,25 @@ program
 function handleOption(option) {
     switch (option) {
         case '1':
-            searchQuestion();
+            runsearchQuestion();
             break;
         case '2':
-            selectQuestions();
+            runselectQuestions();
             break;
         case '3':
-            prepareExam();
+            runprepareExam();
             break;
         case '4':
-            profileGiftExam();
+            runprofileGiftExam();
             break;
         case '5':
-            compareExamProfile();
+            runcompareExamProfile();
             break;
         case '6':
-            generateVCard();
+            rungenerateVCard();
             break;
         case '7':
-            simulateExam();
+            runsimulateExam();
             break;
         default:
             console.log('Invalid option. Please choose a valid option.');
@@ -52,37 +52,61 @@ function handleOption(option) {
     }
 }
 
-function searchQuestion() {
+function runsearchQuestion() {
     console.log('Search for Question');
     let question = prompt('Enter your question: ')
-    searchQuestion(question)
+    //call the file that contains the function
+    const {matchingQuestions} = require("./Commands/search-question");
+    //call the function
+    matchingQuestions(question)
+
     console.log(matchingQuestions)
 }
 
 
 
-function prepareExam() {
+function runprepareExam() {
     console.log('Prepare Exam');
-    prepareExam()
+    //call the file that contains the function prepareExam
+    const {prepareExam} = require("./Commands/prepare_exam");
+    //call the function
+    //dorcas fix this
+
 }
 
-function profileGiftExam() {
+function runprofileGiftExam() {
     console.log('Profile GIFT Exam');
-    profileGiftExam();
+//call the file that contains the function profileGiftExam
+    const {profileGiftExam} = require("./Commands/profile-gift-exam");
+//problem here
+//eines
 }
 
-function compareExamProfile() {
+function runcompareExamProfile() {
     console.log('Compare Exam Profile');
-    compareExamProfile()}
-
-function generateVCard() {
-    console.log('Generate VCard');
-    generateVCard()
+    //call the file that contains the function compareExamProfile
+    const {compareExamProfile} = require("./Commands/compare-exam-profile");
+    //call the function
+    //create the object to get results
+    //dorcas fix this
 }
 
-function simulateExam() {
-    console.log('Simulate Exam');
-    simulateExam()
+    function rungenerateVCard() {
+        console.log('Generate VCard');
+        //call the file that contains the function generateVCard
+        const {generateVCard} = require("./Commands/generate-vcard");
+        //call the function
+        generateVCard()
+    }
+
+    function runsimulateExam() {
+        console.log('Simulate Exam');
+        //call the file that contains the function simulateExam
+        const {simulateExam} = require("./Commands/simulate-exam");
+        //call the function
+        //this is empty also eines
+
 }
 
-program.parse(process.argv);
+    program.parse(process.argv);
+

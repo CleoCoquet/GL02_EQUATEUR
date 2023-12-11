@@ -1,4 +1,4 @@
-const { Prompt } = require('./main.js');
+const { Prompt } = require('./Main.js');
 const { Questions } = require('./parsed-questions.js');
 
 
@@ -8,6 +8,6 @@ function searchQuestion(prompt) {
     const matchingQuestions = Questions.filter(question => question.includes(Prompt));
 
 }
-module.exports = { searchQuestion };
+module.exports = { searchQuestion};
 module.exports = { matchingQuestions };
 

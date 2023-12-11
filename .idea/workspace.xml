@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1349308-4d39-495a-896a-650db45a2487" name="Changes" comment="Main in caporal">
-      <change afterPath="$PROJECT_DIR$/Src/main2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/test.js" afterDir="false" />
+    <list default="true" id="e1349308-4d39-495a-896a-650db45a2487" name="Changes" comment="Corrections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Commands/generate-vcard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Commands/generate-vcard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Commands/prepare_exam.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Commands/prepare_exam.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Commands/search-question.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Commands/search-question.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Utils/exam-simulator.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,47 +65,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Node.js.parsed-questions.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.18.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.18.14&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/randa/Documents/Repos&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Node.js.Main.js.executor": "Run",
+    "Node.js.parsed-questions.js.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "18.18.0",
+    "javascript.nodejs.core.library.typings.version": "18.18.14",
+    "last_opened_file_path": "C:/Users/randa/Documents/Repos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "coverage",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\Src\Commands" />
       <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\Src\Utils\Data" />
       <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro" />
       <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\Src\Utils" />
       <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\Src" />
-      <recent name="C:\Users\randa\Documents\Repos\GitHubI Intro\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.parsed-questions.js">
-    <configuration name="parsed-questions.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Src/Utils/parsed-questions.js" working-dir="$PROJECT_DIR$/Src/Utils">
-      <method v="2" />
-    </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Src/test.js" working-dir="$PROJECT_DIR$/Src">
+  <component name="RunManager">
+    <configuration name="Main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Src/Main.js" working-dir="$PROJECT_DIR$/Src">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.parsed-questions.js" />
-        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.Main.js" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +128,7 @@
       <workItem from="1701943984710" duration="4135000" />
       <workItem from="1701972467241" duration="103000" />
       <workItem from="1701972634678" duration="6919000" />
-      <workItem from="1702308847662" duration="435000" />
+      <workItem from="1702308847662" duration="2482000" />
     </task>
     <task id="LOCAL-00001" summary="Blue Ready!">
       <option name="closed" value="true" />
@@ -227,7 +226,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702043330911</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Corrections">
+      <option name="closed" value="true" />
+      <created>1702309884780</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702309884780</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Corrections">
+      <option name="closed" value="true" />
+      <created>1702309931192</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702309931192</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Corrections">
+      <option name="closed" value="true" />
+      <created>1702310084993</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702310084993</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +291,7 @@
     <MESSAGE value="Parser Complete and tested" />
     <MESSAGE value="Question complete" />
     <MESSAGE value="Main in caporal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main in caporal" />
+    <MESSAGE value="Corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrections" />
   </component>
 </project>
