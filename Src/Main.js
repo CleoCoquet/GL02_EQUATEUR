@@ -1,4 +1,5 @@
 const program = require('caporal');
+const {matchingQuestions} = require("./Commands/search-question");
 const prompt = require('prompt-sync')();
 
 program
@@ -55,6 +56,7 @@ function searchQuestion() {
     console.log('Search for Question');
     let question = prompt('Enter your question: ')
     searchQuestion(question)
+    console.log(matchingQuestions)
 }
 
 
