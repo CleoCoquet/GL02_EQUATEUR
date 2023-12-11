@@ -50,6 +50,8 @@ END:VCARD
 // Appeler la fonction pour générer la vCard
 generateVCard();
 
+module.exports = { generateVCard };
+
 
 
 

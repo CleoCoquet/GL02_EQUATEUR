@@ -42,3 +42,5 @@ Examen.prototype.compare = function (exam1, exam2, logger) {
     }
     );
 }
+
+module.exports = { Examen };

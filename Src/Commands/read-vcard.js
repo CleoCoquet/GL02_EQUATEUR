@@ -43,3 +43,5 @@ function listVCardFiles() {
 // Appelle la fonction pour lister et consulter les fichiers .vcf
 listVCardFiles();
 
+module.exports = { listVCardFiles };
+

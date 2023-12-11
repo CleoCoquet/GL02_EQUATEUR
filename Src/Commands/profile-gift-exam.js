@@ -60,3 +60,5 @@ Examen.prototype.examProfile = function (name) {
         console.log("- " + type + " : " + examProfile.questionTypes[type]);
     }
 }
+
+module.exports = Examen;

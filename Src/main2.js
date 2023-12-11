@@ -53,34 +53,37 @@ function handleOption(option) {
 
 function searchQuestion() {
     console.log('Search for Question');
-    let question = prompt('Enter your question: ')
-    searchQuestion(question)
+    // Implement search logic
 }
 
-
+function selectQuestions() {
+    console.log('Select Questions');
+    // Implement select questions logic
+}
 
 function prepareExam() {
     console.log('Prepare Exam');
-    prepareExam()
+    // Implement prepare exam logic
 }
 
 function profileGiftExam() {
     console.log('Profile GIFT Exam');
-    profileGiftExam();
+    // Implement profile GIFT exam logic
 }
 
 function compareExamProfile() {
     console.log('Compare Exam Profile');
-    compareExamProfile()}
+    // Implement compare exam profile logic
+}
 
 function generateVCard() {
     console.log('Generate VCard');
-    generateVCard()
+    // Implement generate VCard logic
 }
 
 function simulateExam() {
     console.log('Simulate Exam');
-    simulateExam()
+    // Implement simulate exam logic
 }
 
 program.parse(process.argv);
