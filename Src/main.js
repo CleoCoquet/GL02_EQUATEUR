@@ -1,6 +1,6 @@
 const program = require('caporal');
 const {matchingQuestions, searchQuestion} = require("./search-question");
-const {parsedQuestions} = require("./parsed-questions");
+const {parsedQuestions, parseDatabase} = require("./parsed-questions");
 const {listVCardFiles} = require("./read-vcard");
 const prompt = require('prompt-sync')();
 
@@ -12,7 +12,7 @@ program
     .command('show-options')
     .description('Show available options')
     .action(() => {
-        parsedQuestions();
+        parseDatabase();
         console.log('Choose your option:');
         console.log('1. Search for Question');
         console.log('2. Run Simulate Exam');

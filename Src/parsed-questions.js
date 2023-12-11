@@ -6,6 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const {parseGift} = require("./gift-parser");
 
+function parseDatabase(){
 
 // Get the absolute path to the folder where your script is located
 const scriptFolderPath = path.resolve(__dirname);
@@ -39,5 +40,7 @@ fs.readdir(folderPath, (err, files) => {
         });
         });
 });
-
 module.exports = {Questions};
+}
+
+module.exports = {parseDatabase};

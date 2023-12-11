@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1349308-4d39-495a-896a-650db45a2487" name="Changes" comment="Corrections">
-      <change beforePath="$PROJECT_DIR$/Src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/read-vcard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Src/read-vcard.js" afterDir="false" />
-    </list>
+    <list default="true" id="e1349308-4d39-495a-896a-650db45a2487" name="Changes" comment="Corrections" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +112,7 @@
       <workItem from="1701943984710" duration="4135000" />
       <workItem from="1701972467241" duration="103000" />
       <workItem from="1701972634678" duration="6919000" />
-      <workItem from="1702308847662" duration="4058000" />
+      <workItem from="1702308847662" duration="4622000" />
     </task>
     <task id="LOCAL-00001" summary="Blue Ready!">
       <option name="closed" value="true" />
@@ -253,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702312591883</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Corrections">
+      <option name="closed" value="true" />
+      <created>1702313343808</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702313343808</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
