@@ -66,7 +66,10 @@ function runsearchQuestion() {
 function runprepareExam() {
     console.log('Prepare Exam');
     //call the file that contains the function prepareExam
-    const {prepareExam} = require("./prepare_exam");
+    //const {prepareExam} = require("./prepare_exam");
+    const examens = require("./prepare_exam");
+    examens.createExam();
+    
     //call the function
     //dorcas fix this
 
