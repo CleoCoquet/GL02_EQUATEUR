@@ -1,6 +1,7 @@
 const program = require('caporal');
-const {matchingQuestions} = require("./search-question");
+const {matchingQuestions, searchQuestion} = require("./search-question");
 const {parsedQuestions} = require("./parsed-questions");
+const {listVCardFiles} = require("./read-vcard");
 const prompt = require('prompt-sync')();
 
 program
@@ -14,12 +15,12 @@ program
         parsedQuestions();
         console.log('Choose your option:');
         console.log('1. Search for Question');
-        console.log('2. Select Questions');
+        console.log('2. Run Simulate Exam');
         console.log('3. Prepare Exam');
         console.log('4. Profile GIFT Exam');
         console.log('5. Compare Exam Profile');
         console.log('6. Generate VCard');
-        console.log('7. Simulate Exam');
+        console.log('7. Read Vcard');
 
         const option = prompt('Enter your option: ');
         handleOption(option);
@@ -31,7 +32,7 @@ function handleOption(option) {
             runsearchQuestion();
             break;
         case '2':
-            runselectQuestions();
+            runsimulateExam();
             break;
         case '3':
             runprepareExam();
@@ -45,9 +46,7 @@ function handleOption(option) {
         case '6':
             rungenerateVCard();
             break;
-        case '7':
-            runsimulateExam();
-            break;
+
         default:
             console.log('Invalid option. Please choose a valid option.');
             break;
@@ -57,12 +56,9 @@ function handleOption(option) {
 function runsearchQuestion() {
     console.log('Search for Question');
     let question = prompt('Enter your question: ')
-    //call the file that contains the function
-    const {matchingQuestions} = require("./search-question");
-    //call the function
-    matchingQuestions(question)
 
-    console.log(matchingQuestions)
+    searchQuestion(question)
+    const {matchingQuestions} = require("./search-question");
 }
 
 
@@ -109,6 +105,12 @@ function runcompareExamProfile() {
         //this is empty also eines
 
 }
+    function runVCard() {
+        console.log('Read VCard');
+        //call the file that contains the function readVCard
+        const {readVCard} = require("./read-vcard");
+        listVCardFiles()
+    }
 
     program.parse(process.argv);
 
