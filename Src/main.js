@@ -79,6 +79,7 @@ function runprofileGiftExam() {
     console.log('Profile GIFT Exam');
 //call the file that contains the function profileGiftExam
     const {profileGiftExam} = require("./profile-gift-exam");
+    profileGiftExam.profilGift();
 //problem here
 //eines
 }
