@@ -37,3 +37,5 @@ const createExam = function (){
    return questionsExam;
   
 }
+
+createExam();
