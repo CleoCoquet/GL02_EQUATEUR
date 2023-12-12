@@ -10,9 +10,9 @@ Examen.prototype.allQuestions = function () {
     // Utilisation du module gift-parser 
     var Parser = new gift-parser()
     var fileContent = []
-    filenames = fs.readdirSync('./SujetB_data/');
+    filenames = fs.readdirSync('./Data/');
     filenames.forEach(file => {
-        fileContent.push(fs.readFileSync('./SujetB_data/' + file, { encoding: 'utf8' }))
+        fileContent.push(fs.readFileSync('./Data/' + file, { encoding: 'utf8' }))
     });
 
     var parsedQuestions = []
