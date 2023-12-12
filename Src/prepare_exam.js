@@ -1,5 +1,10 @@
 //
+const path = require('path');
+const giftparse = require('./gift-parser.js');
 const rechercher = require("./search-question.js");
+
+
+
 
 const createExam = function (){
         console.log("creation d'un examen");
