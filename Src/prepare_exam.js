@@ -57,6 +57,6 @@ const profilGift = function () {
     });
     
     let fileName = readlineSync.question("Veuillez saisir un nom pour le fichier : ");
-    fs.writeFileSync(`${fileName}.gift`, giftContent);
+    fs.writeFileSync(`./Data/${fileName}.gift`, giftContent);
   }
 
